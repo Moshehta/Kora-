@@ -1,0 +1,73 @@
+.offer {
+  margin-bottom: 100px;
+}
+.offer .container {
+  width: 80%;
+  margin: auto;
+}
+.offer_content .word {
+  padding-bottom: 50px;
+}
+.offer_content h2 {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+}
+.offer_content .word .line {
+  width: 10%;
+  height: 4px;
+  background-color: blue;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.offer:hover .line {
+  width: 20%;
+  transition: 0.5s;
+}
+/* ********************************** */
+.fav .part {
+  width: 30%;
+  height: 200px;
+  border: 1px solid;
+  float: left;
+  position: relative;
+  padding: 30px 15px 30px 70px;
+  margin-bottom: 20px;
+}
+.fav .part::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+  transition: 0.8s;
+}
+.p2 {
+  margin: 0 5%;
+}
+.fav .part h2 {
+  margin-bottom: 15px;
+  transition: 1s;
+}
+.fav .part i {
+  position: absolute;
+  left: 15px;
+  top: 26px;
+  color: #6195ff;
+  font-size: 35px;
+}
+.fav .part p {
+  line-height: 1.6;
+  color: rgb(138, 138, 138);
+  font-size: 20px;
+}
+.fav .part:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.fav .part:hover h2 {
+  color: white;
+}

@@ -1,0 +1,65 @@
+.kora {
+  background-image: url(../imgs/kora.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0 0 100px 0;
+  position: relative;
+}
+.kora .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.kora .container {
+  position: relative;
+  width: 60%;
+  margin: auto;
+}
+.kora_content {
+  position: absolute;
+  margin: auto;
+  padding-top: 80px;
+  margin-left: 15px;
+}
+.par {
+  position: relative;
+  width: 40%;
+  float: left;
+  padding-top: 10px;
+  /* background-color: brown; */
+}
+.par1 {
+  margin-right: 150px;
+}
+.im,
+.wor {
+  float: left;
+}
+.im img {
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.wor {
+  padding-top: 10px;
+}
+.wor h3 {
+  color: white;
+}
+.wor p {
+  color: rgb(104, 104, 246);
+  font-weight: 400;
+}
+.par .p1 {
+  color: white;
+  margin: 5px 30px;
+  padding-bottom: 10px 0 10px 5px;
+  letter-spacing: 1.2;
+}
+.clear {
+  clear: both;
+}

@@ -1,0 +1,83 @@
+.choose {
+  margin: 50px 0 50px 0;
+  background-color: #f9f9f9;
+  padding: 70px 0;
+}
+.choose .container {
+  width: 80%;
+  margin: auto;
+}
+
+.things,
+.ima {
+  width: 50%;
+  float: left;
+  margin: auto;
+  position: relative;
+}
+.things .word {
+  padding: 10px 0 0 30px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.things .word h2 {
+  color: black;
+  font-size: 35px;
+}
+.things .word .line {
+  width: 12%;
+  height: 4px;
+  background-color: blue;
+  margin-left: 5px;
+  transition: 0.8s;
+  position: absolute;
+}
+.choose:hover .line {
+  width: 65%;
+}
+.things p {
+  color: rgb(132, 132, 132);
+  line-height: 1.7;
+  letter-spacing: 1.5;
+  margin: 15px 5px;
+  font-size: 20px;
+}
+.things ul {
+  list-style: none;
+  line-height: 2;
+}
+.things ul i {
+  color: rgb(122, 122, 252);
+  font-size: 20px;
+}
+
+.things ul span {
+  color: rgb(132, 132, 132);
+  font-size: 20px;
+}
+/* ******************************** */
+
+.ima img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+}
+.ima ul {
+  text-align: center;
+  list-style: none;
+}
+.ima ul li.spc {
+  background-color: rgb(100, 100, 223);
+}
+.ima ul li {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #a8a8a8;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+
+.ima li:hover {
+  background-color: rgb(100, 100, 223);
+}

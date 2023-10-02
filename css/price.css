@@ -1,0 +1,99 @@
+.price {
+  margin: 50px 0 100px 0;
+  background-color: #e8e8e8;
+  padding: 80px 0;
+}
+.price .container {
+  width: 80%;
+  margin: auto;
+}
+.price_content .word {
+  margin-bottom: 80px;
+}
+.price_content .word h2 {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+.price_content .word .line {
+  width: 10%;
+  height: 4px;
+  background-color: rgb(87, 87, 242);
+  margin: auto;
+  margin-top: -2px;
+}
+.price:hover .line {
+  width: 38%;
+  transition: 0.5s;
+}
+/* ********************** */
+.price_content .parent .one {
+  width: 30%;
+  height: 350px;
+  float: left;
+  border: 3px solid rgb(155, 149, 149);
+  text-align: center;
+}
+.sec {
+  margin: 0 5%;
+}
+.bas {
+  padding: 20px 0;
+  font-size: 25px;
+  transition: 0.5s;
+}
+.one h3 {
+  color: rgb(155, 149, 149);
+}
+.one .circle {
+  margin: auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(99, 99, 234);
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+.one .circle h2 {
+  padding-top: 20px;
+  font-size: 40px;
+}
+.one .circle p {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.one h4 {
+  margin: auto;
+  text-align: center;
+  color: rgb(99, 99, 234);
+  width: 200px;
+  height: 30px;
+  border: 2px solid rgb(88, 158, 179);
+  padding-top: 5px;
+}
+/* ****** */
+.parent .one {
+  position: relative;
+}
+.parent .one::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.8s;
+  opacity: 0.5;
+}
+.parent .one:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.parent .one:hover .bas,
+.parent .one:hover .circle {
+  color: red;
+  transition: 0.8s;
+}

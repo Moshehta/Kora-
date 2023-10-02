@@ -1,0 +1,87 @@
+.featured {
+  background-color: rgb(213, 213, 213);
+  margin-bottom: 100px;
+}
+.featured .container {
+  width: 80%;
+  margin: auto;
+}
+.feature_content .word {
+  padding-bottom: 50px;
+}
+.feature_content .word h2 {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+}
+.featured .word .line {
+  width: 10%;
+  height: 4px;
+  background-color: blue;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.featured:hover .line {
+  width: 20%;
+  transition: 0.5s;
+}
+/* *********************************** */
+.photoes {
+  overflow: hidden;
+}
+.photoes .sec_1 {
+  width: 30%;
+  float: left;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 20px;
+}
+.photoes .sec_1 img {
+  width: 100%;
+  height: 100%;
+}
+.mg {
+  margin: 0 5%;
+}
+.clear {
+  clear: both;
+}
+.sec_1 .overlay {
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transition: 1s;
+}
+.sec_1 .overlay p {
+  color: rgb(136, 136, 238);
+  font-weight: bold;
+  font-size: 25px;
+}
+.sec_1 .overlay h3 {
+  color: white;
+  font-size: 25px;
+}
+.sec_1 .overlay i {
+  color: blue;
+  background-color: rgb(98, 98, 247);
+  font-size: 30px;
+  border: 1px solid;
+  padding: 5px;
+  margin: 1px;
+}
+.sec_1:hover .overlay {
+  opacity: 1;
+  z-index: 2;
+  margin-top: -5px;
+  transition: 1s;
+}
+
+.sec_1:hover img {
+  opacity: 0.1;
+}
+.sec_1:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
