@@ -6,7 +6,7 @@
 .header {
   width: 100%;
   position: fixed;
-  background-color: #040d12;
+  background-color: #000000;
   z-index: 5;
 }
 .header .container {

@@ -1,5 +1,7 @@
 .web_site {
-  margin-bottom: 100px;
+  /* margin-bottom: 30px; */
+  background-color: #dce1d7;
+  padding: 100px 0;
 }
 .web_site .container {
   width: 80%;
@@ -31,6 +33,7 @@
   text-align: center;
   text-align: center;
   position: relative;
+  z-index: 3;
 }
 .web_2 {
   margin: 0 5%;

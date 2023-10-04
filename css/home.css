@@ -5,7 +5,7 @@ body {
   background-image: url(../imgs/background.jpg);
   height: 100vh;
   position: relative;
-  margin-bottom: 100px;
+  /* margin-bottom: 30px; */
 }
 .home .container {
   position: absolute;

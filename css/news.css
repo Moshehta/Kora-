@@ -1,11 +1,13 @@
 .news {
-  margin-bottom: 200px;
-  background-color: rgba(225, 225, 225, 0.3);
+  /* margin-bottom: 30px; */
+  background-color: #dce1d7;
   background-size: cover;
+  padding: 100px 0;
 }
 .news .container {
   width: 80%;
   margin: auto;
+  z-index: 5;
 }
 .news_word {
   margin-bottom: 50px;
@@ -78,10 +80,13 @@
   height: 0;
   top: 0;
   left: 0;
-  background-color: rgba(127, 127, 246, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   transition: 1s;
 }
 .new:hover::after {
   width: 100%;
   height: 100%;
+}
+.new:hover p {
+  color: black;
 }

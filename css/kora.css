@@ -4,7 +4,7 @@
   height: 300px;
   background-attachment: fixed;
   background-size: cover;
-  margin: 0 0 100px 0;
+  /* margin-bottom: 30px; */
   position: relative;
 }
 .kora .overlay {
